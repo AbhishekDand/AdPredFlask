@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  {% block head %}
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./style.css">
+   
+{% endblock %}
+
+</head>
+{% block body %}
+<body>
+
+  <div>
+    <h1 style="text-align: center; color: blue; font-family:Cursive; font-weight:bold">Your Chance of Admit is {{prediction}}</h1>
+</div>
+
+{% endblock %}
+
+</body>
+
+</html>
