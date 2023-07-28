@@ -17,11 +17,16 @@ To run the AdPredFlask application, follow these steps:
 
 4. Install the required dependencies:
    ```
-   pip install -r requirements.txt'''
+   pip install -r requirements.txt
+
+   ```
 
 Run the main.py file to start the Flask application:
 
-```python main.py```
+```
+python main.py
+
+```
 
 Access the application in your web browser by typing either localhost:5000 or localhost:8000 in the address bar.
 
