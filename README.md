@@ -1,12 +1,54 @@
-# AdPredFlask
-I have created a flask app which predicts chance of admission into university based on gre,toelf, and other academics scores. I am uploading ipython file for creating pickle file. Flask App code and html templates.  
+# AdPredFlask - University Admission Prediction Flask App
 
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. 
 
-You can just download the code from gihub and run main.py file
-Then in web browser go to your localhost with port 5000 or 8000.
+## Introduction
 
-If you have any doubts then you can reach me out on Instagram https://www.instagram.com/pandaspython/
+AdPredFlask is a Flask web application that predicts the chances of admission into a university based on GRE, TOEFL, and other academic scores. The app utilizes a machine learning model trained on historical admission data to provide accurate predictions.
 
-Follow me on Instagram I post regualry on Machine Learning, Deep Learning and Data Science.
+## Installation and Usage
+
+To run the AdPredFlask application, follow these steps:
+
+1. Clone the GitHub repository: [AdPredFlask](https://github.com/your-username/AdPredFlask).
+
+2. Navigate to the project directory.
+
+3. Create a virtual environment (optional but recommended).
+
+4. Install the required dependencies:
+   ```
+   pip install -r requirements.txt'''
+
+Run the main.py file to start the Flask application:
+
+```python main.py```
+
+Access the application in your web browser by typing either localhost:5000 or localhost:8000 in the address bar.
+
+## Usage Instructions
+Once the AdPredFlask app is running, you will be directed to the home page.
+
+Enter the required academic details, such as GRE score, TOEFL score, and other relevant information.
+
+Click on the "Predict" button to get the prediction of your chances of admission.
+
+The app will display the result, indicating the probability of admission to the university based on the provided information.
+
+
+## How to Improve the App
+
+I welcome contributions and suggestions to improve the AdPredFlask application. Here are a few ideas to enhance the project:
+
+- Improve the user interface: Enhance the HTML templates and CSS styles to make the app more visually appealing and user-friendly.
+
+- Add more features: Expand the application to include additional features, such as allowing users to upload their academic records in a CSV file.
+
+- Model retraining: Periodically retrain the machine learning model with new data to improve prediction accuracy.
+
+- Error handling: Implement robust error handling to provide meaningful messages to users in case of incorrect inputs or server issues.
+
+## Contact Me
+If you have any questions, suggestions, or feedback about the AdPredFlask application, feel free to reach out to me on Instagram @pandaspython. I regularly post content on Machine Learning, Deep Learning, and Data Science.
+
+Let's make this project even better together! Happy coding!
 
